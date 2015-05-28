@@ -13,7 +13,8 @@ define([], function () {
     "proxyurl": "",
     //UI specific parameters
     //"title": "Kwanza - Summary Viewer template with a very long name in the title",
-    "title": "Kwanza Sul Simple Map",
+    "title": "Kwanza Sul Simple Map - with a very long title",
+    "appDescription": "This is a description set in the default.js file of the locally hosted template; it's being displayed because the webmap item has no description.",
     "logo": "",
     "color": "#1E90FF",
     //Counter specific parameters
@@ -27,7 +28,7 @@ define([], function () {
         },
         {
           "id": "sumFields",
-          "fields": ["AreaSize","DirectBene","InDirectBe","TaskHumanV"]
+          "fields": ["AreaSize", "DirectBene", "InDirectBe", "TaskHumanV"]
         },
         {
           "id": "avgFields",

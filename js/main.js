@@ -149,9 +149,8 @@ define([
 
         this.map = response.map;
 
-
         // INFO PANEL //
-        dom.byId("infoContentNode").innerHTML = response.itemInfo.item.description || "[NO DESCRIPTION AVAILABLE]";
+        dom.byId("infoContentNode").innerHTML = response.itemInfo.item.description || this.config.appDescription || "[NO DESCRIPTION AVAILABLE]";
         on(dom.byId("toggleInfoNode"), "click", lang.hitch(this, function (evt) {
           domClass.toggle("infoPanel", "collapsed");
         }));
